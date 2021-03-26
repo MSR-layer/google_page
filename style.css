@@ -1,0 +1,45 @@
+#nav{
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    height:48px;
+    width:1908px;
+    display:flex;
+    align-items:center;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    float:right;
+}
+
+.navitems {
+    margin:10px;
+    text-decoration: none;
+    color:black;
+    
+}
+
+a.navitems:hover {
+    text-decoration: underline;
+}
+
+#signup {
+    height:16px;
+    width:79.75;
+    background:#1a73e8;
+    padding:9px 23px 9px 23px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-left:8px;
+    text-align:center;
+}
+
+#signup a {
+    color:ivory;
+    text-decoration:none;
+    
+    font-size:14px;
+    font-weight:500;
+}
+
+#google-logo{
+    object-position: center bottom;
+}
