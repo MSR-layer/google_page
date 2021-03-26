@@ -1,9 +1,15 @@
+body{
+    width:100%;
+}
+
+
 #nav{
     font-size: 14px;
     font-family: arial, sans-serif;
     height:48px;
-    width:1908px;
+    width:1920px;
     display:flex;
+    padding:8px;
     align-items:center;
     box-sizing: border-box;
     justify-content: flex-end;
@@ -23,12 +29,14 @@ a.navitems:hover {
 
 #signup {
     height:16px;
-    width:79.75;
+    width:79.75px;
     background:#1a73e8;
-    padding:9px 23px 9px 23px;
+    padding:9px 15px 9px 15px;
     border-radius: 4px;
+    border-width: 1px;
     text-decoration: none;
     margin-left:8px;
+    margin-right:8px;
     text-align:center;
 }
 
@@ -40,6 +48,52 @@ a.navitems:hover {
     font-weight:500;
 }
 
+#signup:hover{
+    background-color: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+}
+.logo-div{
+
+    width:100%;
+    min-height:92px;
+    min-height:290px;
+    display:flex;
+    align-items: center;
+    
+
+}
+
+.search{
+    width:100%;
+    padding:20px;
+    max-height:160px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
 #google-logo{
-    object-position: center bottom;
+    margin:auto;
+    margin-bottom: 0px;
+}
+
+#search-bar{
+    width:582px;
+    height:44px;
+    border-radius: 22px;
+    border-width:1px;
+    border-style: solid;
+    border-color:#c8cdd4;
+    display: flex;
+    object-position: center;
+}
+
+#search-bar:hover{
+    box-shadow: 0 0 2px #c8cdd4;
+}
+
+#search-bar input{
+    border-style: none;
+    opacity: 0;
 }
