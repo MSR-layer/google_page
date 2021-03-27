@@ -43,7 +43,8 @@ a.navitems:hover {
 #signup a {
     color:ivory;
     text-decoration:none;
-    
+    height:16px;
+    width:79.75px;
     font-size:14px;
     font-weight:500;
 }
@@ -79,14 +80,15 @@ a.navitems:hover {
 }
 
 #search-bar{
-    width:582px;
-    height:44px;
+    width:560px;
+    height:39px;
     border-radius: 22px;
     border-width:1px;
     border-style: solid;
     border-color:#c8cdd4;
     display: flex;
     object-position: center;
+    padding:5px 8px 0px 14px;
 }
 
 #search-bar:hover{
@@ -95,5 +97,76 @@ a.navitems:hover {
 
 #search-bar input{
     border-style: none;
-    opacity: 0;
+    outline:none;
+    background-color: transparent;
+    width:527px;
+    height:34px;
+    display: flex;
+    flex: 100%;
+    position:static;
+    font-size: 16px;
+    font-family: arial, sans-serif;
+}
+
+.glass{
+    width:39px;
+    height: 39px;
+    padding:7px 10px 0px 0px;
+}
+
+.buttons{
+    height:70px;
+    width:100%;
+    padding-top:18px;
+}
+
+.buttons input[type="submit"]{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #202124;
+    border-radius: 4px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.buttons input[type="submit"]:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    border: 1px solid #dadce0;
+}
+
+.middle{
+    flex-grow: 1;
+    box-sizing: border-box;
+    height: 230px;
+}
+
+.footer {
+    font-size: 14px;
+    padding:10px 20px;
+    height:50px;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: #f2f2f2;
+    justify-content: space-evenly;
+    border-top: 1px solid #dadce0;
+    justify-items:center;
+}
+
+.footer a{
+    color: rgba(0,0,0,.54);
+    text-decoration: none;
+    margin: 5px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
